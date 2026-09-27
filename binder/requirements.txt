@@ -1,0 +1,1 @@
+# Aucune bibliothèque externe : les notebooks n'utilisent que Python standard.

@@ -1,0 +1,10 @@
+#!/bin/bash
+# Exécuté une fois par Binder à la construction : installe le style des notebooks
+set -e
+mkdir -p ~/.jupyter/custom
+cp binder/custom.css ~/.jupyter/custom/custom.css
+# JupyterLab 4 et Notebook 7 ne chargent custom.css que si on l'active
+cat >> ~/.jupyter/jupyter_server_config.py <<'CONF'
+c.LabApp.custom_css = True
+c.JupyterNotebookApp.custom_css = True
+CONF

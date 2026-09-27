@@ -1,0 +1,11 @@
+# Photos des cours et du TP (non publiées)
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.HEIC
+
+# Fichiers générés par Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+scores_mastermind.csv

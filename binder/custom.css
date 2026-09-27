@@ -1,0 +1,28 @@
+/* Mise en forme plus lisible des notebooks (Notebook classique, Notebook 7, JupyterLab) */
+.rendered_html, .jp-RenderedHTMLCommon { font-size: 15px; line-height: 1.6; color: #222; }
+.rendered_html h1, .jp-RenderedHTMLCommon h1 { color: #1f4e79; border-bottom: 3px solid #1f4e79; padding-bottom: 6px; }
+.rendered_html h2, .jp-RenderedHTMLCommon h2 { color: #1f4e79; border-bottom: 1px solid #c9d6e3; padding-bottom: 4px; margin-top: 1.4em; }
+.rendered_html h3, .jp-RenderedHTMLCommon h3 { color: #2e75b6; }
+
+/* Tableaux */
+.rendered_html table, .jp-RenderedHTMLCommon table { border-collapse: collapse; margin: 12px 0; width: auto; font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12); border-radius: 6px; overflow: hidden; }
+.rendered_html th, .jp-RenderedHTMLCommon th { background: #1f4e79; color: #fff; font-weight: 600; text-align: left !important;
+    padding: 8px 14px; border: none; }
+.rendered_html td, .jp-RenderedHTMLCommon td { text-align: left !important; padding: 7px 14px; border: none;
+    border-bottom: 1px solid #e3e8ee; vertical-align: top; }
+.rendered_html tbody tr:nth-child(odd), .jp-RenderedHTMLCommon tbody tr:nth-child(odd) { background: #ffffff; }
+.rendered_html tbody tr:nth-child(even), .jp-RenderedHTMLCommon tbody tr:nth-child(even) { background: #f3f7fb; }
+.rendered_html tbody tr:hover, .jp-RenderedHTMLCommon tbody tr:hover { background: #e4eef8; }
+.rendered_html td code, .rendered_html th code,
+.jp-RenderedHTMLCommon td code, .jp-RenderedHTMLCommon th code { background: transparent; }
+
+/* Code dans le texte et blocs de code */
+.rendered_html code, .jp-RenderedHTMLCommon code { background: #eef2f6; color: #b3261e; padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+.rendered_html pre, .jp-RenderedHTMLCommon pre { background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px 12px; }
+.rendered_html pre code, .jp-RenderedHTMLCommon pre code { background: transparent; color: #24292e; padding: 0; }
+
+/* Encadrés (énoncés, « A retenir », cours) */
+.rendered_html blockquote, .jp-RenderedHTMLCommon blockquote { background: #fff8e6; border-left: 5px solid #f0a500; margin: 12px 0;
+    padding: 8px 16px; border-radius: 0 6px 6px 0; color: #333; }
+.rendered_html hr, .jp-RenderedHTMLCommon hr { border-top: 2px dashed #c9d6e3; }
