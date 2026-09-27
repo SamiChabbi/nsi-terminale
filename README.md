@@ -13,6 +13,7 @@ cours/
 tp1/
 ├── TP_transcription     énoncé du Projet 1 : Mastermind
 ├── TP_resolution        solution complète (Tkinter)
+├── mastermind_solution.py   la même solution en fichier Python, prête à lancer
 └── TP_explication       explications étape par étape, erreurs courantes
 ```
 
@@ -29,6 +30,7 @@ tp1/
 
 - **En ligne :** cliquer sur le badge *Binder* ci-dessus (premier lancement : quelques minutes).
 - **Sur son ordinateur :** `jupyter notebook` dans le dossier du dépôt.
+- **Jouer au Mastermind :** `python3 tp1/mastermind_solution.py`
 
 Exécuter les cellules **dans l'ordre** (*Cell → Run All*).
 
