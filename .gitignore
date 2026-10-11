@@ -9,3 +9,6 @@
 .ipynb_checkpoints/
 __pycache__/
 scores_mastermind.csv
+
+# Sujets en PDF (non publiés)
+*.pdf

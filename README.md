@@ -13,6 +13,8 @@ cours/
 tp1/
 ├── TP_transcription     énoncé du Projet 1 : Mastermind
 └── TP_explication       explications étape par étape, erreurs courantes
+dm1/
+└── DM1_Files_Piles_resolution   DM Files et Piles : énoncé, résolution et explications
 ```
 
 | Leçon | Thème |
