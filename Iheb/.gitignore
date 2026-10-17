@@ -1,0 +1,11 @@
+# Fichiers générés par Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Fichiers de démonstration générés par le notebook DPR_Ex1
+/02_Diviser_pour_regner_Resolutions/dico.txt
+/02_Diviser_pour_regner_Resolutions/mots.txt
+
+# Tout le contenu d Iheb est publié (sujets PDF et photos compris)
+!*.pdf
+!*.jpeg
