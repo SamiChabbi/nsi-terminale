@@ -2,6 +2,8 @@
 
 Notebooks Jupyter : chaque question est résolue, testée et accompagnée d'une **explication pédagogique**, avec les erreurs fréquentes à éviter.
 
+Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopié du sujet), **✅ RÉSOLUTION** (la réponse attendue) et **💡 EXPLICATION PÉDAGOGIQUE** (à ne pas recopier).
+
 ## Contenu
 
 ```
