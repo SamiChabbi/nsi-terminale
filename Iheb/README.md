@@ -28,5 +28,5 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 
 - **Sur son ordinateur :** lancer `jupyter notebook` dans le dossier, ouvrir un notebook, puis *Cell → Run All*.
 - Les notebooks n'utilisent **que Python standard** (aucune bibliothèque à installer).
-- Exercice 1 de « diviser pour régner » : placer `dico.txt` et `mots.txt` à côté du notebook. Sans ces fichiers, des fichiers de démonstration sont générés automatiquement.
+- Exercice 1 de « diviser pour régner » : `dico.txt` (336 531 vrais mots français, liste publique du projet Gutenberg) et `mots.txt` (20 000 mots dont 5 mots inventés à retrouver) sont fournis à côté du notebook. Ils remplacent les fichiers de la professeure, non disponibles : avec ceux-ci, les résultats changent mais la méthode est la même.
 - Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module.
