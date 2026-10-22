@@ -14,6 +14,9 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 └── POO_Ex3_Instant_resolution.ipynb               méthodes statiques
 02_Diviser_pour_regner_Photos_originales/          photos du polycopié
 02_Diviser_pour_regner_Transcription_PDF/          transcription fidèle du polycopié
+02_Diviser_pour_regner_Tableau_de_trace/
+├── Tableau_de_trace_Cours_eleve.ipynb             cours sans prérequis : suivre un programme à la main (exercices sans correction)
+└── Tableau_de_trace_Cours_prof.ipynb              le même cours, avec les corrections des exercices
 02_Diviser_pour_regner_Recursivite_avant_le_tri_fusion/
 ├── Recursivite_avant_le_tri_fusion_eleve.ipynb    exercices de récursivité à faire avant la question 2.4
 └── Recursivite_avant_le_tri_fusion_prof.ipynb     les mêmes, avec les résolutions
