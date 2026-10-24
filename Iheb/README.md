@@ -9,6 +9,7 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ```
 01_POO_Programmation_Orientee_Objet/
 ├── POO_Cours_et_Exercices_Heros_de_Troie.pdf      sujet
+├── heros.py, angle.py, instant.py                 fichiers distribués avec le cours
 ├── POO_Ex1_Heros_de_Troie_resolution.ipynb        classes, attributs, méthodes, composition
 ├── POO_Ex2_Angle_resolution.ipynb                 implémenter une API, méthodes spéciales
 └── POO_Ex3_Instant_resolution.ipynb               méthodes statiques
@@ -26,12 +27,13 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ├── DPR_Ex4_Ex5_Logarithme_et_croissance.ipynb     log binaire, ordres de grandeur
 ├── DPR_Ex6_Pavage_triominos.ipynb                 pavage récursif d'une grille 2^k × 2^k
 ├── DPR_Ex7_Rotation_image.ipynb                   rotation d'image avec / sans tableau
-└── DPR_Ex8_Plus_proche_paire_de_points.ipynb      plus courte distance en n log(n)
+├── DPR_Ex8_Plus_proche_paire_de_points.ipynb      plus courte distance en n log(n)
+└── dico.txt, mots.txt, turnbuffon.png             fichiers distribués avec le cours
 ```
 
 ## Utilisation
 
 - **Sur son ordinateur :** lancer `jupyter notebook` dans le dossier, ouvrir un notebook, puis *Cell → Run All*.
 - Les notebooks n'utilisent **que Python standard** (aucune bibliothèque à installer).
-- Exercice 1 de « diviser pour régner » : `dico.txt` (336 531 vrais mots français, liste publique du projet Gutenberg) et `mots.txt` (20 000 mots dont 5 mots inventés à retrouver) sont fournis à côté du notebook. Ils remplacent les fichiers de la professeure, non disponibles : avec ceux-ci, les résultats changent mais la méthode est la même.
-- Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module.
+- Les fichiers distribués avec le cours sont placés à côté des notebooks : `heros.py`, `angle.py` et `instant.py` pour la POO (les corrections des exercices 2 et 3 passent les tests contenus dans `angle.py` et `instant.py`), `dico.txt` et `mots.txt` pour l'exercice 1 de « diviser pour régner », `turnbuffon.png` pour l'exercice 7.
+- Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module. Les deux méthodes de rotation ont été vérifiées sur la vraie image `turnbuffon.png`.
