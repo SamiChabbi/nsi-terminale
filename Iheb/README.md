@@ -13,13 +13,7 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ├── POO_Ex1_Heros_de_Troie_resolution.ipynb        classes, attributs, méthodes, composition
 ├── POO_Ex2_Angle_resolution.ipynb                 implémenter une API, méthodes spéciales
 └── POO_Ex3_Instant_resolution.ipynb               méthodes statiques
-02_Diviser_pour_regner_Photos_originales/          photos du polycopié
 02_Diviser_pour_regner_Transcription_PDF/          transcription fidèle du polycopié
-02_Diviser_pour_regner_Tableau_de_trace/
-└── Tableau_de_trace_Cours.ipynb                   cours court sans prérequis : suivre un programme à la main
-02_Diviser_pour_regner_Recursivite_avant_le_tri_fusion/
-├── Recursivite_avant_le_tri_fusion_eleve.ipynb    exercices de récursivité à faire avant la question 2.4
-└── Recursivite_avant_le_tri_fusion_prof.ipynb     les mêmes, avec les résolutions
 02_Diviser_pour_regner_Resolutions/
 ├── DPR_Ex1_Mots_mysterieux_dichotomie.ipynb       recherche dichotomique
 ├── DPR_Ex2_Tri_fusion.ipynb                       fusion, tri fusion récursif et itératif
