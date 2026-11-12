@@ -34,5 +34,5 @@ class File:
             return "File vide"
         texte = "tête"
         for el in self.contenu:
-            texte = texte + " < " + str(el)
+            texte = texte + " < " + repr(el)
         return texte + " < queue"
