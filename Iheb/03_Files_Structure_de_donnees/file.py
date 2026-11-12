@@ -32,4 +32,7 @@ class File:
         """Renvoie une description du contenu de la file."""
         if self.est_vide():
             return "File vide"
-        return "tête < " + " < ".join(repr(el) for el in self.contenu) + " < queue"
+        texte = "tête"
+        for el in self.contenu:
+            texte = texte + " < " + str(el)
+        return texte + " < queue"
