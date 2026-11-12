@@ -29,10 +29,6 @@ class File:
         return self.taille() == 0
 
     def __repr__(self):
-        """Renvoie une description du contenu de la file."""
-        if self.est_vide():
-            return "File vide"
-        texte = "tête"
-        for el in self.contenu:
-            texte = texte + " < " + repr(el)
-        return texte + " < queue"
+        """Renvoie une description du contenu de la file :
+        les éléments de la tête (à gauche) à la queue (à droite)."""
+        return "File(" + repr(self.contenu) + ")"
