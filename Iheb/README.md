@@ -1,4 +1,4 @@
-# NSI Terminale — POO, « diviser pour régner » et files : cours et exercices résolus
+# NSI Terminale — POO, « diviser pour régner », files et bases de données : cours et exercices résolus
 
 Notebooks Jupyter : chaque question est résolue, testée et accompagnée d'une **explication pédagogique**, avec les erreurs fréquentes à éviter.
 
@@ -33,6 +33,16 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ├── FILES_Ex5_VIN_first.ipynb                      répartir les éléments selon un critère
 ├── FILES_Ex6_Pile_avec_deux_files.ipynb           une pile (LIFO) avec deux files
 └── FILES_Ex7_Nombres_de_Hamming.ipynb             force brute, trois files, optimisation
+04_SGBD_Bases_de_donnees/
+├── Bases_de_donnees_Cours_et_Exercices.pdf        sujet
+├── airports_sql/                                  données de l'exercice 2 (archive airports_sql.zip du cours)
+├── countries.csv, velib.sql                       données des exercices 1 et 3 (reconstituées, voir ci-dessous)
+├── SGBD_Ex1_Creation_table_import.ipynb           CREATE TABLE, INSERT, générer un script SQL en Python
+├── SGBD_Ex2_Aeroports.ipynb                       SELECT, WHERE, agrégats, jointures, requêtes imbriquées
+├── SGBD_Ex3_Velib.ipynb                           jointure par clé étrangère, ORDER BY
+├── SGBD_Ex4_Ex5_Cles_primaires.ipynb              choisir une clé primaire
+├── SGBD_Ex6_Achats_cles_etrangeres.ipynb          clés étrangères, intégrité référentielle
+└── SGBD_Ex7_Location_voitures.ipynb               UPDATE, IS NULL, jointures sur 4 relations
 ```
 
 ## Utilisation
@@ -42,3 +52,5 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 - Les fichiers distribués avec le cours sont placés à côté des notebooks : `heros.py`, `angle.py` et `instant.py` pour la POO (les corrections des exercices 2 et 3 passent les tests contenus dans `angle.py` et `instant.py`), `dico.txt` et `mots.txt` pour l'exercice 1 de « diviser pour régner », `turnbuffon.png` pour l'exercice 7.
 - Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module. Les deux méthodes de rotation ont été vérifiées sur la vraie image `turnbuffon.png`.
 - Files : garder `file.py` dans le même dossier que les notebooks (ils font `from file import File`).
+- Bases de données : les requêtes SQL sont exécutées avec le module `sqlite3` de Python (aucune installation). Elles peuvent être recopiées telles quelles dans la console H2 utilisée en classe ; les rares différences sont signalées dans les notebooks. Dans H2, pour l'exercice 2, créer les index indiqués à la question 1, sinon les jointures sont très lentes.
+- Bases de données : `countries.csv` (exercice 1) a été reconstitué à partir des données de l'exercice 2, et `velib.sql` (exercice 3) à partir des données ouvertes Vélib' Métropole (instantané du 14 novembre 2026), car ces fichiers ne sont pas disponibles en ligne. La question 5 de l'exercice 2 et l'exercice 8 (IMDb) attendent la publication de leurs données.
