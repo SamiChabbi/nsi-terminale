@@ -27,7 +27,7 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ├── Files_Cours_et_Exercices.pdf                   sujet
 ├── file.py                                        la classe File (exercice 1), importée par les autres notebooks
 ├── FILES_Ex1_Classe_File.ipynb                    implémenter une file (FIFO)
-├── FILES_Ex2_Passe_ton_tour_occurrences.ipynb     rotation, parcourir une file sans la modifier
+├── FILES_Ex2_Passe_ton_tour_occurrences.ipynb     file auxiliaire, parcourir une file sans la modifier
 ├── FILES_Ex3_Permutations.ipynb                   modifier une file en place
 ├── FILES_Ex4_Recherche_et_doublons.ipynb          recherche, file auxiliaire
 ├── FILES_Ex5_VIN_first.ipynb                      répartir les éléments selon un critère
@@ -51,6 +51,6 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 - Les notebooks n'utilisent **que Python standard** (aucune bibliothèque à installer).
 - Les fichiers distribués avec le cours sont placés à côté des notebooks : `heros.py`, `angle.py` et `instant.py` pour la POO (les corrections des exercices 2 et 3 passent les tests contenus dans `angle.py` et `instant.py`), `dico.txt` et `mots.txt` pour l'exercice 1 de « diviser pour régner », `turnbuffon.png` pour l'exercice 7.
 - Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module. Les deux méthodes de rotation ont été vérifiées sur la vraie image `turnbuffon.png`.
-- Files : garder `file.py` dans le même dossier que les notebooks (ils font `from file import File`).
+- Files : garder `file.py` dans le même dossier que les notebooks (ils font `from file import File`). Les solutions n'utilisent ni liste python ni boucle `for` : on parcourt une file avec `while not f.est_vide()` et une file auxiliaire.
 - Bases de données : les requêtes SQL sont exécutées avec le module `sqlite3` de Python (aucune installation). Elles peuvent être recopiées telles quelles dans la console H2 utilisée en classe ; les rares différences sont signalées dans les notebooks. Dans H2, pour l'exercice 2, créer les index indiqués à la question 1, sinon les jointures sont très lentes.
 - Bases de données : `countries.csv` (exercice 1) a été reconstitué à partir des données de l'exercice 2, et `velib.sql` (exercice 3) à partir des données ouvertes Vélib' Métropole (instantané du 14 novembre 2026), car ces fichiers ne sont pas disponibles en ligne. La question 5 de l'exercice 2 et l'exercice 8 (IMDb) attendent la publication de leurs données.
