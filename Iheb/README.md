@@ -37,6 +37,7 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 ├── Bases_de_donnees_Cours_et_Exercices.pdf        sujet
 ├── airports_sql/                                  données de l'exercice 2 (archive airports_sql.zip du cours)
 ├── countries.csv, velib.sql                       données des exercices 1 et 3 (reconstituées, voir ci-dessous)
+├── location_voitures.sql                          données inventées pour tester l'exercice 7
 ├── SGBD_Ex1_Creation_table_import.ipynb           CREATE TABLE, INSERT, générer un script SQL en Python
 ├── SGBD_Ex2_Aeroports.ipynb                       SELECT, WHERE, agrégats, jointures, requêtes imbriquées
 ├── SGBD_Ex3_Velib.ipynb                           jointure par clé étrangère, ORDER BY
@@ -52,5 +53,5 @@ Pour chaque question, trois blocs toujours séparés : **📝 ÉNONCÉ** (recopi
 - Les fichiers distribués avec le cours sont placés à côté des notebooks : `heros.py`, `angle.py` et `instant.py` pour la POO (les corrections des exercices 2 et 3 passent les tests contenus dans `angle.py` et `instant.py`), `dico.txt` et `mots.txt` pour l'exercice 1 de « diviser pour régner », `turnbuffon.png` pour l'exercice 7.
 - Exercice 7 : le module `turnbuffon.py` (pygame) est simulé dans le notebook. La fin du notebook explique comment utiliser le vrai module. Les deux méthodes de rotation ont été vérifiées sur la vraie image `turnbuffon.png`.
 - Files : garder `file.py` dans le même dossier que les notebooks (ils font `from file import File`). Les solutions n'utilisent ni liste python ni boucle `for` : on parcourt une file avec `while not f.est_vide()` et une file auxiliaire.
-- Bases de données : les requêtes SQL sont exécutées avec le module `sqlite3` de Python (aucune installation). Elles peuvent être recopiées telles quelles dans la console H2 utilisée en classe ; les rares différences sont signalées dans les notebooks. Dans H2, pour l'exercice 2, créer les index indiqués à la question 1, sinon les jointures sont très lentes.
+- Bases de données : comme en classe, les requêtes SQL sont à taper dans la **console H2**. Chaque requête des notebooks a été exécutée dans H2 et le résultat de H2 est recopié sous la requête : les notebooks ne contiennent pas de code à exécuter, sauf le script Python de l'exercice 1 (b). Les libertés prises par rapport au sujet sont signalées par « ⚠️ Liberté prise ». Pour l'exercice 2, créer dans H2 les index indiqués à la question 1, sinon les jointures sont très lentes.
 - Bases de données : `countries.csv` (exercice 1) a été reconstitué à partir des données de l'exercice 2, et `velib.sql` (exercice 3) à partir des données ouvertes Vélib' Métropole (instantané du 14 novembre 2026), car ces fichiers ne sont pas disponibles en ligne. La question 5 de l'exercice 2 et l'exercice 8 (IMDb) attendent la publication de leurs données.
